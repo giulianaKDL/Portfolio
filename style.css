@@ -1,0 +1,223 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(219, 186, 78);
+}
+
+@media (max-width: 1920px){
+    /*HEADER*/
+    h1,h2,h3{
+        font-family: "Poppins", sans-serif;
+    }
+
+    header{
+        position: fixed;
+        z-index: 100;
+        display: flex;
+        gap: 490px;
+        align-items: center;
+        width: 98%;
+        height: 70px;
+        margin: 20px;
+        border-radius: 15px;
+        background: rgb(246, 241, 247);
+        box-shadow: -5px 7px 0px rgb(233, 217, 248);
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 30px;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    a:hover{
+        text-decoration: underline 2px;
+        text-underline-offset: 5px;
+    }
+
+    button#theme{
+        width: 80px;
+        height: 30px;
+        margin-left: 85px;
+        border-radius: 50px;
+        border: 2px solid rgb(16, 14, 44);
+        background-color: rgb(43, 40, 88);
+    }
+
+    /*MAIN*/
+
+    /*section first*/
+
+    #first {
+        width: 100%;
+        height: 900px;
+    }
+
+    img#banner{
+        position: absolute;
+        width: 100%;
+        height: 960px;
+        filter:brightness(40%);
+    }
+
+    div#hero-text{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 130px;
+        padding-left: 200px;
+        padding-bottom: 70px;
+        width: 700px;
+        gap: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    p#myName{
+        font-size: 40px;
+        font-style: oblique;
+    }
+
+    #ver_projetos{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(233, 217, 248);
+    }
+
+    #ver_projetos:hover{
+        background-color: rgb(219, 174, 78);
+    }
+
+    #elements{
+        position: relative;
+        display: flex;
+        margin-left: 200px;
+    }
+
+    #elements button, img{
+        width: 250px;
+        height: 180px;
+        margin-right: 50px;
+        border-radius: 5px;
+    }
+    #elements button:hover{
+        box-shadow: 0px 0px 10px rgb(182, 182, 182);
+    }
+
+    /*Section Second*/
+
+    #second{
+        width: 100%;
+        height: 985px;
+        background-color: rgb(219, 78, 188);
+    }
+
+    #purple_banner{
+        position: absolute;
+        width: 100%;
+        height: 990px;
+    }
+
+    #banner_align{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        padding-top: 200px;
+    }
+
+    .alight_div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        background-color: aqua;
+        width: 500px;
+        height: 500px;
+    }
+
+    .caract_b{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        border-radius: 5px;
+    }
+
+    /*Section Thirty*/
+
+    #thirty{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 985px;
+        padding-top: 100px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    #pink_banner{
+        position: absolute;
+        width: 100%;
+        height: 985px;
+    }
+
+    h2{
+        position: relative;
+    }
+
+    #columns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tools_group{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 80px;
+        width: 400px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 13px;
+        background-color: rgb(77, 11, 51);
+        box-shadow: 5px 5px 0px rgb(226, 169, 241);
+    }
+
+    .imgs_group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgs_group img{
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    }
+}
